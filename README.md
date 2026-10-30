@@ -41,7 +41,7 @@ python -m playwright install chromium
 ## 运行
 
 ```bash
-python 爬虫.py
+python Pakutaso-Crawler.py
 ```
 
 根据提示输入搜索内容：
