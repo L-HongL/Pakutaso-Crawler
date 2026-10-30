@@ -1,6 +1,6 @@
 # Pakutaso 图片下载器
 
-这是一个基于 Playwright 的 Pakutaso 图片素材下载脚本。脚本会打开 Microsoft Edge，通过关键词搜索或直接访问搜索结果页面，逐页下载大尺寸图片。
+这是一个基于 Playwright 的 Pakutaso 图片素材下载的简易脚本。脚本会打开 Microsoft Edge，通过关键词搜索或直接访问搜索结果页面，逐页下载大尺寸图片。
 
 ## 功能
 
@@ -15,6 +15,13 @@
 - Microsoft Edge 浏览器
 - Python 3.9 或更高版本（运行 Python 脚本时）
 
+## 运行打包程序
+
+项目附带 PyInstaller 生成的 Windows 可执行文件：
+
+```text
+ dist/Pakutaso下载器.exe
+```
 ## 安装依赖
 
 在项目目录打开终端，运行：
@@ -46,13 +53,6 @@ python 爬虫.py
 
 下载图片保存在当前工作目录的 `image` 文件夹中。若要下载更多图片，可在启动时输入更大的数量。
 
-## 运行打包程序
-
-项目附带 PyInstaller 生成的 Windows 可执行文件：
-
-```text
- dist/Pakutaso下载器.exe
-```
 
 双击运行或在终端中启动后，按提示输入关键词或页面网址及下载数量。使用前请确保电脑已安装 Microsoft Edge。
 
